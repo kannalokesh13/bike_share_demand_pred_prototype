@@ -1,0 +1,24 @@
+[ 2023-05-04 19:52:17,958 ] 9 root - INFO - starting
+[ 2023-05-04 19:52:17,958 ] 25 root - INFO - Data Ingestion methods Starts
+[ 2023-05-04 19:52:18,099 ] 28 root - INFO - Dataset read as pandas Dataframe
+[ 2023-05-04 19:52:18,208 ] 32 root - INFO - Train test split
+[ 2023-05-04 19:52:18,334 ] 38 root - INFO - Ingestion of Data is completed
+[ 2023-05-04 19:52:18,412 ] 74 root - INFO - Read train and test data completed
+[ 2023-05-04 19:52:18,459 ] 75 root - INFO - Train Dataframe Head : 
+  id;year;hour;season;holiday;workingday;weather;temp;atemp;humidity;windspeed;count
+0                                          4474;2011;16;3;0;1;1;33.62;34.85;17;0;427
+1                                            1349;2012;8;3;0;1;2;32.8;37.88;55;0;661
+2                                     7690;2012;22;4;0;1;1;20.5;24.24;59;19.0012;126
+3                                         4160;2012;5;1;0;0;1;9.84;12.88;70;6.0032;1
+4                                        5505;2012;4;2;0;0;2;22.14;25.76;68;12.998;9
+[ 2023-05-04 19:52:18,459 ] 76 root - INFO - Test Dataframe Head  : 
+  id;year;hour;season;holiday;workingday;weather;temp;atemp;humidity;windspeed;count
+0                                     3438;2012;2;2;0;1;1;14.76;16.665;50;26.0027;11
+1                                     4297;2011;1;2;0;0;2;14.76;16.665;87;19.0012;33
+2                                   8502;2011;20;3;0;0;1;31.16;35.605;58;16.9979;262
+3                                     9342;2012;20;4;0;0;2;17.22;21.21;82;12.998;154
+4                                       7783;2012;4;1;0;1;2;18.86;22.725;82;12.998;1
+[ 2023-05-04 19:52:18,459 ] 78 root - INFO - Obtaining preprocessing object
+[ 2023-05-04 19:52:18,459 ] 27 root - INFO - Data Transformation initiated
+[ 2023-05-04 19:52:18,459 ] 29 root - INFO - Pipeline Initiated
+[ 2023-05-04 19:52:18,459 ] 117 root - INFO - Exception occured in the initiate_datatransformation

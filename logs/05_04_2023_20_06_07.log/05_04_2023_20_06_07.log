@@ -1,0 +1,29 @@
+[ 2023-05-04 20:06:42,106 ] 9 root - INFO - starting
+[ 2023-05-04 20:06:42,107 ] 25 root - INFO - Data Ingestion methods Starts
+[ 2023-05-04 20:06:42,272 ] 28 root - INFO - Dataset read as pandas Dataframe
+[ 2023-05-04 20:06:42,364 ] 32 root - INFO - Train test split
+[ 2023-05-04 20:06:42,506 ] 38 root - INFO - Ingestion of Data is completed
+[ 2023-05-04 20:06:42,765 ] 74 root - INFO - Read train and test data completed
+[ 2023-05-04 20:06:42,804 ] 75 root - INFO - Train Dataframe Head : 
+     id  year  hour  season  holiday  workingday  weather   temp  atemp  humidity  windspeed  count
+0  4474  2011    16       3        0           1        1  33.62  34.85        17     0.0000    427
+1  1349  2012     8       3        0           1        2  32.80  37.88        55     0.0000    661
+2  7690  2012    22       4        0           1        1  20.50  24.24        59    19.0012    126
+3  4160  2012     5       1        0           0        1   9.84  12.88        70     6.0032      1
+4  5505  2012     4       2        0           0        2  22.14  25.76        68    12.9980      9
+[ 2023-05-04 20:06:42,843 ] 76 root - INFO - Test Dataframe Head  : 
+     id  year  hour  season  holiday  workingday  weather   temp   atemp  humidity  windspeed  count
+0  3438  2012     2       2        0           1        1  14.76  16.665        50    26.0027     11
+1  4297  2011     1       2        0           0        2  14.76  16.665        87    19.0012     33
+2  8502  2011    20       3        0           0        1  31.16  35.605        58    16.9979    262
+3  9342  2012    20       4        0           0        2  17.22  21.210        82    12.9980    154
+4  7783  2012     4       1        0           1        2  18.86  22.725        82    12.9980      1
+[ 2023-05-04 20:06:42,843 ] 78 root - INFO - Obtaining preprocessing object
+[ 2023-05-04 20:06:42,844 ] 27 root - INFO - Data Transformation initiated
+[ 2023-05-04 20:06:42,844 ] 29 root - INFO - Pipeline Initiated
+[ 2023-05-04 20:06:42,862 ] 96 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2023-05-04 20:06:42,921 ] 108 root - INFO - Preprocessor pickle file saved
+[ 2023-05-04 20:06:42,921 ] 27 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-05-04 20:06:43,401 ] 47 root - INFO - Model Report : {'LinearRegression': 0.3424346826083021, 'Lasso': 0.3438990108378356, 'Ridge': 0.3425088470621094, 'Elasticnet': 0.325382892078252, 'RandomForest': 0.8026926564915701, 'DecisionTree': 0.7176300497211137}
+[ 2023-05-04 20:06:43,404 ] 60 root - INFO - Best Model Found , Model Name : RandomForest , R2 Score : 0.8026926564915701
+[ 2023-05-04 20:06:43,413 ] 11 root - INFO - ending

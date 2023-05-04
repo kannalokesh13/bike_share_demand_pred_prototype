@@ -1,0 +1,9 @@
+[ 2023-05-04 23:25:14,100 ] 186 werkzeug - WARNING -  * Debugger is active!
+[ 2023-05-04 23:25:14,110 ] 186 werkzeug - INFO -  * Debugger PIN: 257-172-528
+[ 2023-05-04 23:25:18,881 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/May/2023 23:25:18] "GET / HTTP/1.1" 200 -
+[ 2023-05-04 23:25:44,086 ] 69 root - INFO - Dataframe Gathered
+[ 2023-05-04 23:25:44,696 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/May/2023 23:25:44] "POST /review HTTP/1.1" 200 -
+[ 2023-05-04 23:27:13,224 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/May/2023 23:27:13] "GET / HTTP/1.1" 200 -
+[ 2023-05-04 23:27:36,989 ] 69 root - INFO - Dataframe Gathered
+[ 2023-05-04 23:27:37,045 ] 186 werkzeug - INFO - 127.0.0.1 - - [04/May/2023 23:27:37] "POST /review HTTP/1.1" 200 -
+[ 2023-05-04 23:28:05,473 ] 186 werkzeug - INFO -  * Detected change in 'C:\\Users\\k.vidya\\Desktop\\lokesh_projects\\bike_sharing_demand_prediction\\app.py', reloading

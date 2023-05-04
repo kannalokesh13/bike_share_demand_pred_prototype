@@ -1,0 +1,6 @@
+[ 2023-05-04 16:31:35,988 ] 9 root - INFO - starting
+[ 2023-05-04 16:31:35,989 ] 25 root - INFO - Data Ingestion methods Starts
+[ 2023-05-04 16:31:36,224 ] 28 root - INFO - Dataset read as pandas Dataframe
+[ 2023-05-04 16:31:36,489 ] 32 root - INFO - Train test split
+[ 2023-05-04 16:31:36,673 ] 38 root - INFO - Ingestion of Data is completed
+[ 2023-05-04 16:31:36,873 ] 119 root - INFO - Exception occured in the initiate_datatransformation

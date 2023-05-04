@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}main page{% endblock %}
+{% block body %}
+    <h1 align="center">BIKE SHARING DEMAND PREDICTION</h1>
+    <div class="row">
+
+        <div class="column">
+    <form action="/review" method="POST">
+        <label>Year</label>
+        <input type="text" name="year" id="year"><br>
+        <label>Hour</label>
+        <input type="text" name="hour"><br>
+        <label>Season</label>
+        <input type="text" name="season"><br>
+        <label>HoliDay</label>
+        <input type="text" name="holiday"><br>
+        <label>WorkingDay</label>
+        <input type="text" name="working"><br>
+        <label>Weather</label>
+        <input type="text" name="weather"><br>
+        <label>Temparature	</label>
+        <input type="text" name="temp"><br>
+        <label>Atmospheric_Pressure</label>
+        <input type="text" name="atemp"><br>
+        <label>Humidity</label>
+        <input type="text" name="humidity"><br>
+        <label>WindSpeed</label>
+        <input type="text" name="wind"><br>
+        
+        <input type="submit" value="Submit">
+    </div>
+   
+
+    </form>
+</div>
+{% endblock %}

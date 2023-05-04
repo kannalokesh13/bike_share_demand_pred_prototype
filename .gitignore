@@ -1,0 +1,5 @@
+.bsd
+bsd/
+.logs
+.build
+.dist
